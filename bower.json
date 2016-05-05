@@ -1,0 +1,24 @@
+{
+  "name": "masked-background-image",
+  "main": "masked-background-image.js",
+  "version": "1.0.1",
+  "homepage": "https://github.com/unski11ed/masked-background-image",
+  "authors": [
+    "Maciej Kurbański <maciek.kurbasnki@gmail.com>"
+  ],
+  "description": "Library for generating image masks based on input image.",
+  "keywords": [
+    "mask",
+    "image",
+    "css",
+    "generator"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
