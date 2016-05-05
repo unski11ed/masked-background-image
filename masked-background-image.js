@@ -32,7 +32,7 @@
                 var mask = imageData.data[i + 3] / 255;
                 var color = (imageData.data[i] = imageData.data[i + 1] = imageData.data[i + 2]) / 3
 
-                newImageData.data[i] = newImageData.data[i + 1] = newImageData.data[i + 2] = 255;
+                newImageData.data[i] = newImageData.data[i + 1] = newImageData.data[i + 2] = color;
                 newImageData.data[i + 3] = color > 0 ? imageData.data[i + 3] : 0
             }
             // Assign the generated mask to the context
