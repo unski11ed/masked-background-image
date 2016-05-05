@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-(function(doc){
+(function(doc, wnd){
     function MaskedBackgroundImage(targetElement, imageUrl, cbReady) {
         // Validate input params
         if(!targetElement)
@@ -59,4 +59,6 @@
         });
         mainImage.src = imageUrl;
     }
-})(document);
+
+    wnd.MaskedBackgroundImage = MaskedBackgroundImage;
+})(document, window);
