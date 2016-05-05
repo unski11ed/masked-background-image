@@ -1,0 +1,28 @@
+{
+  "name": "masked-background-image",
+  "version": "1.0.1",
+  "description": "Adds a background image to an element, with a generated mask in mask-image style property. Used for applying css effects on images with opaque backgrounds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unski11ed/masked-background-image.git"
+  },
+  "keywords": [
+    "mask",
+    "masked",
+    "background",
+    "opaque",
+    "opacity",
+    "css",
+    "effects"
+  ],
+  "author": "Maciej Kurbański",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unski11ed/masked-background-image/issues"
+  },
+  "homepage": "https://github.com/unski11ed/masked-background-image#readme"
+}
