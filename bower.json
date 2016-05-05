@@ -1,7 +1,7 @@
 {
   "name": "masked-background-image",
   "main": "masked-background-image.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/unski11ed/masked-background-image",
   "authors": [
     "Maciej Kurbański <maciek.kurbasnki@gmail.com>"
